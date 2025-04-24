@@ -4,13 +4,17 @@ body {
   padding: 10px;
 }
 
-p, h1, h2 {
+p,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
+
 p {
   font-size: 18px;
 }
+
 a:focus {
   outline: 2px solid #00FFFF;
   outline-offset: 2px;
@@ -26,7 +30,7 @@ a:focus {
   justify-content: center;
   background-color: #333333;
   padding: 20px 10px 20px 10px;
-  color:#00FFFF;
+  color: #00FFFF;
 }
 
 .contact-info {
@@ -36,44 +40,60 @@ a:focus {
   align-items: center;
 }
 
-@media (min-width: 650px){
-.contact-info{
-  flex-direction: row;
-}
+@media (min-width: 650px) {
+  .contact-info {
+    flex-direction: row;
+  }
 }
 
 .address {
   padding: 0 10px 0 10px;
-  border-right: solid 1px #00FFFF;
+
+}
+
+@media (min-width: 650px) {
+  .address {
+    border-right: solid 1px #00FFFF;
+  }
 }
 
 .telefonnummer {
   padding: 0 10px 0 10px;
-  border-right: solid 1px #00FFFF;
-  border-left: solid 1px #00FFFF;
+
   color: #00FFFF;
+}
+
+@media (min-width: 650px) {
+  .telefonnummer {
+    border-right: solid 1px #00FFFF;
+    border-left: solid 1px #00FFFF;
+  }
 }
 
 .email {
   padding-left: 10px;
-  border-left: solid 1px #00FFFF;
-  color:#00FFFF
+
+  color: #00FFFF
 }
 
-.h2-container{
+@media (min-width: 650px) {
+  .email {
+    border-left: solid 1px #00FFFF;
+  }
+}
+
+.h2-container {
   width: 100%;
   background-color: #00FFFF;
   padding: 2px;
-  color:#333333;
+  color: #333333;
 }
+
 .about {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center; 
+  justify-content: center;
   padding: 20px 10px 20px 10px;
-  color:#333333;
+  color: #333333;
 }
-
-
-
