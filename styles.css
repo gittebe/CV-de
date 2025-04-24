@@ -31,9 +31,15 @@ a:focus {
 
 .contact-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 650px){
+.contact-info{
+  flex-direction: row;
+}
 }
 
 .address {
