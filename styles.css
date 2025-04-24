@@ -47,7 +47,7 @@ a:focus {
 }
 
 .address {
-  padding: 0 10px 0 10px;
+  padding: 10px;
 
 }
 
@@ -58,7 +58,7 @@ a:focus {
 }
 
 .telefonnummer {
-  padding: 0 10px 0 10px;
+  padding: 10px;
 
   color: #00FFFF;
 }
@@ -71,8 +71,7 @@ a:focus {
 }
 
 .email {
-  padding-left: 10px;
-
+  padding: 10px;
   color: #00FFFF
 }
 
